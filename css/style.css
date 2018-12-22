@@ -1,0 +1,162 @@
+@font-face{
+    font-family: 'Myriad Pro';
+    src: url(/fonts/MyriadPro-Regular.otf);
+}
+
+@font-face{
+    font-family: 'ArialMT';
+    src: url(/fonts/arial-mt.ttf);
+}
+
+@font-face{
+    font-family: 'Segoe UI';
+    src: url(/fonts/Segoe\ UI.ttf);
+}
+
+header{
+    width: 567px;
+}
+
+.header{
+    width: 567px;
+    height: 109px;
+    margin: 26px 62px 23px 59px;
+    display: flex;
+}
+
+.header__left{
+    margin-right: 36px;
+}
+
+.header__center{
+    font-family: 'Myriad Pro';
+    color: #ef0000;
+    font-weight: 100;
+    font-size: 15px;
+    margin-right: 24px;
+    text-align: center;                                
+}
+
+.header__right{
+    margin-left: 24px;
+    margin-top: 7px;
+}
+
+
+/* Section */
+
+.section{
+    background-image: url('/img/section/Слой_4.png');
+    width: 567px;
+    height: 409px;
+    font-family: 'Myriad Pro';
+}
+
+.section__header{
+    text-align: center;
+    font-family: 'Myriad Pro';
+}
+
+.section__header h1{
+    color:#ffffff;
+    font-weight: 100;
+    margin:0;
+    font-size: 28px;
+    padding: 32px 60px 0 62px;
+}
+
+.seciton__desc p{
+    color: #0172b8;
+    font-family: 'ArialMT';
+
+}
+
+.seciton__desc-text{
+    color: #0172b8;
+    font-family: "Arial MT";
+    font-size: 21px;
+    padding: 294px 33px 9px 39px; 
+    text-align: center;
+    font-weight: bold;
+}
+
+.section__text-p{
+    float:left;
+    color: #0172b8;
+    font-family: 'Myriad Pro';
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 54px;
+    margin-top: 3px;
+
+}
+
+.section__button{
+    width:567px;
+    height: 121px;
+}
+
+
+.section__btns{
+    width: 221px;
+    height: 65px;
+    border-radius: 50px;
+}
+
+.button{
+    background-image: url('/img/section/Слой_5.png');
+    width: 221px;
+    height: 65px;
+    margin-left:267px;
+    margin-top:35px;
+}
+
+.button p{
+    padding: 25px 17px 19px 17px;
+    font-family: 'ArialMT';
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+
+.section__button a{
+    text-decoration: none;
+}
+
+/* Footer */
+
+.footer{
+    font-family: 'Segoe UI';
+    color: #070808;
+    font-size: 21px;
+    font-weight: 300;
+    width: 567px;
+    height: 131px;
+    background-color: #0070ba;
+}
+
+.footer__contacts{
+    padding: 18px 141px 46px 133px;
+    text-decoration: none;
+    color: #070808;
+    width:314px;
+    text-align: center;
+    height: 77px;
+}
+
+.footer__contacts > a{
+    text-decoration: none;
+    color: #070808;
+}
+
+
+.footer__contacts-links > a{
+    text-align: center; 
+}
+
+.footer__hover-text:hover{
+    color: #ffffff;
+    
+}
